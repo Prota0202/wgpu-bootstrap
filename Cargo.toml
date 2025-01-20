@@ -6,3 +6,8 @@ edition = "2021"
 [dependencies]
 wgpu = "0.13"
 web-sys = { version = "0.3.77", default-features = false }
+
+[workspace]
+members = [
+    "src", # Remplacez par le chemin vers les crates membres
+]
