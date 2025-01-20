@@ -1,3 +1,8 @@
+[package]
+name = "wgpu-bootstrap"
+version = "0.1.0"
+edition = "2021"
+
 [dependencies]
-wgpu = "0.13"  # Une version compatible
+wgpu = "0.13"
 web-sys = { version = "0.3.77", default-features = false }
